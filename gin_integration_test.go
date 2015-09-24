@@ -35,8 +35,8 @@ func TestRunEmpty(t *testing.T) {
 	// otherwise the main thread will complete
 	time.Sleep(5 * time.Millisecond)
 
-	assert.Error(t, router.Run(":8080"))
-	testRequest(t, "http://localhost:8080/example")
+	assert.Error(t, router.Run(":8078"))
+	testRequest(t, "http://localhost:8078/example")
 }
 
 func TestRunEmptyWithEnv(t *testing.T) {
