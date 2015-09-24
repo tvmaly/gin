@@ -13,7 +13,7 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/gin-gonic/gin/render"
+	"github.com/tvmaly/gin/render"
 )
 
 // Framework's version

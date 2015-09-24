@@ -13,9 +13,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
 	"github.com/manucorporat/sse"
+	"github.com/tvmaly/gin/binding"
+	"github.com/tvmaly/gin/render"
 	"golang.org/x/net/context"
 )
 

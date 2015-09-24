@@ -18,6 +18,7 @@ type (
 	IndentedJSON struct {
 		Data interface{}
 	}
+
 	RawJSON struct {
 		Data *bytes.Buffer
 	}
